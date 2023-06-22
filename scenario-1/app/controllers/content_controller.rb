@@ -2,7 +2,13 @@ class ContentController < ApplicationController
   protect_from_forgery with: :null_session
 
   def index
-    render json: Content.all
+    all_content = Content.all
+
+    all_content.each do |c|
+      c.data = rotify(c.data)
+    end
+
+    render json: all_content
   end
 
   def save

@@ -1,5 +1,15 @@
 # Code Challenge - Fund that Flip
 
+Please come prepared with a code sample. It can be something you have written recently and
+want to use to showcase your programming style. We would expect to see examples of your
+code primarily in Ruby on Rails, additionally you may share examples from other languages
+such as React.
+
+In addition to your own coding samples, we would like you to complete two of the following
+coding challenges. During the interview, you will be asked to share your screen and walk our
+team through your code. Do not provide any sample code that belongs to a current or previous
+employer.
+
 ## Scenario 1
 
 Using Ruby on Rails, write an API that accepts a post request with a UTF-8 string payload and

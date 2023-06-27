@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 def multiply_no_op(x, y)
     result = 0
     y.abs.times { result += x.abs }
